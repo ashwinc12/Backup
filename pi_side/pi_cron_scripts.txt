@@ -1,0 +1,2 @@
+5 * * * * /pathtofile/auto_run_camera.py
+1 * * * * /pathtofile/check_end.py
