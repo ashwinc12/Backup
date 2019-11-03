@@ -5,8 +5,7 @@ The traditional classroom has transformed with the advent of the Internet and cl
 
 ### What it does
 CourseHub allows students to easily find and access lecture videos which are uploaded automatically to the Google Cloud. A Raspberry Pi is placed in each lecture hall and is set to record video at the start time of each corresponding lecture. After the lecture ends, the Pi uploads the video to the Google Cloud and deletes the video from its local storage. To view a video, the user:
-
-### Selects a semester and year
+Selects a semester and year
 Enters the course code and number
 Chooses their professor and lecture date
 How we built it
