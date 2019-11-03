@@ -1,0 +1,78 @@
+/* # */
+/* A */
+.always-show .collapse {
+	display: block !important;
+}
+/* B */
+.btn-custom {
+    background: #00B8D4;
+    color: #fff;
+}
+.btn-custom:hover {
+    background: #00B1CC;
+    color: #fff;
+}
+/* C */
+/* D */
+/* E */
+/* F */
+/* G */
+/* H */
+.hide {
+    display: none;
+}
+/* I */
+/* J */
+/* K */
+/* L */
+.logo-second {
+    background: #fff;
+    padding: 7px;
+    border-radius: 10px;
+    color: #00B8D4;
+}
+.light {
+    font-weight: 300;
+}
+.lectures-list {
+    list-style-type: none;
+}
+/* M */
+/* N */
+nav {
+    background: #00B8D4;
+    padding: 10px;
+}
+nav .navbar-brand {
+    color: #fff !important;
+    font-size: 30px;
+}
+/* O */
+/* P */
+/* Q */
+/* R */
+/* S */
+.select-block {
+    background: #BDBDBD !important;
+    opacity: 0.9;
+    color: #fff;
+    padding: 20px;
+    margin-top: 200px;
+    border-radius: 10px;
+}
+/* T */
+.theme-color {
+    color: #00B8D4;
+}
+.theme-a {
+    color: #00B8D4;
+}
+.theme-a:hover {
+    color: #00B8D4;
+}
+/* U */
+/* V */
+/* W */
+/* X */
+/* Y */
+/* Z */

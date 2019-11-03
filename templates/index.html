@@ -1,0 +1,38 @@
+{% extends "master.html" %}
+
+{% block title %}
+ClassHub
+{% endblock %}
+
+{% block body %}
+<div class="row justify-content-center">
+    <div class="select-block col-6">
+        <h5>Select a semester and course:</h5>
+        <form class="row" action="{{ url_for('index') }}" method="post">
+            <div class="form-group col-4">
+                <label for="semester">Semester</label>
+                <select class="form-control custom-select" id="semester" name="semester">
+                    <option></option>
+					<option value="Fall 2019">Fall 2019</option>
+                </select>
+            </div>
+            <div class="form-group col-4">
+                <label for="subject-code">Subject code:</label>
+                <select class="form-control custom-select" id="subject-code" name="subject-code">
+					<option></option>
+                    <option value="CSCI">CSCI</option>
+					<option value="MATH">MATH</option>
+                </select>
+            </div>
+			<div class="form-group col-4">
+				<label for="course-number">Course number:</label>
+				<input type="number" class="form-control" id="course-number" name="course-number">
+			</div>
+			<div class="col-12">
+				<button type="submit" class="btn btn-custom btn-lg btn-block">Go</button>
+				<span style="color: #D50000">{{ error_message }}</span>
+			</div>
+        </form>
+    </div>
+</div>
+{% endblock %}
