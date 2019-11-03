@@ -12,7 +12,7 @@ def index():
 		n = ""
 		c = []
 		# Access the database and do all checking here
-		# This is some hard coded shit
+		# Hard-coded this process for now
 		link = "https://storage.googleapis.com/class-hub-bucket/shaunak%20wtf.mp4"
 		if s_c == "MATH" and c_n == "2010":
 			n = "Multivariable Calulus and Matrix Algebra"
