@@ -29,6 +29,9 @@ Successful scheduling of Python scripts
 What's next for CourseHub
 We hope to integrate databases within the Flask application to store all RPI course data, use multiple Raspberry Pis to upload video from separate locations, and automate the embedding of these videos into the website. (And putting out a decked out merch line)
 
+### Stack
+Boostrap, CSS, Flask, Google-Cloud, HTML, Python, Raspberry-Pi, Camera
+
 ![alt text](https://github.com/ashwinc12/CourseHub/blob/master/images/CourseHub%20Home%20Page.jpeg)
 ![alt text](https://github.com/ashwinc12/CourseHub/blob/master/images/course-hub-1.jpg)
 ![alt text](https://github.com/ashwinc12/CourseHub/blob/master/images/course-hub-2.jpg)
