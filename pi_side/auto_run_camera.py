@@ -1,13 +1,20 @@
+import time
+
 import numpy as np
 import cv2
 
 cap = cv2.VideoCapture(0)
 # Define the codec and create VideoWriter object
-fourcc = cv2.VideoWriter_fourcc(*'XVID')
-out = cv2.VideoWriter('output.avi',fourcc, 20.0, (640,480))
+if (cap.isOpened()== False):  
+  print("Error opening video  file")
+  
+fourcc = cv2.VideoWriter_fourcc(*'mp4v')
+out = cv2.VideoWriter('output.mp4', fourcc, 20.0, (640,480))
+start_time = time.time()
 
 while(cap.isOpened()):
     ret, frame = cap.read()
+    current_time = time.time()
     if ret==True:
         # frame = cv2.flip(frame,0)
 
@@ -15,10 +22,8 @@ while(cap.isOpened()):
         out.write(frame)
 
         cv2.imshow('frame',frame)
-        if cv2.waitKey(1) & 0xFF == ord('q'):
+        if (current_time - start_time) > 10:
             break
-    else:
-        break
 
 # Release everything if job is finished
 cap.release()
