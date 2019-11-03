@@ -1,8 +1,7 @@
 import os
 
 for fname in os.listdir('.'):
-    if fname.endswith('.avi'):
+    if fname.endswith('.mp4'):
         # do stuff on the file
-        print("hi");
         
         break
