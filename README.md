@@ -33,5 +33,6 @@ Boostrap, CSS, Flask, Google-Cloud, HTML, Python, Raspberry-Pi, Camera
 ![alt text](https://github.com/ashwinc12/CourseHub/blob/master/images/CourseHub%20Home%20Page.jpeg)
 ![alt text](https://github.com/ashwinc12/CourseHub/blob/master/images/course-hub-1.jpg)
 ![alt text](https://github.com/ashwinc12/CourseHub/blob/master/images/course-hub-2.jpg)
+![alt text](https://github.com/ashwinc12/CourseHub/blob/master/images/course-hub-3.jpg)
 
 
